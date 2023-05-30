@@ -1,8 +1,0 @@
-#div1{width: 1000px;margin: 0 auto;border: 1px solid salmon;}
-#huahui01{width: 1000px;height: 200px;background: url(../img/top1.jpg);}
-#huahui02{width: 1000px;height: 32px;background: url(../img/top2.jpg);}
-.tu1 {line-height: 28px;padding: 10px 20px; font-size: 20px;font-family: arial;border-bottom: solid burlywood;margin: 10px;}
-.tu1 img{float: left;width: 100px;border: 2px solid salmon;padding: 5px;margin-right: 15px;}
-.tu2{line-height: 28px;padding: 10px 20px; font-size: 20px;font-family: "仿宋";border-bottom: solid burlywood;margin: 10px;}
-.tu2 img{float: right;width: 120px;border: 2px solid salmon;padding: 5px;margin-right: 15px;}
-#footer1{width:1000px;height: 20px;background: url(../img/top01.gif);}
