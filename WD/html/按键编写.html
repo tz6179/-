@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<form action="http://www.baibu.com" method="post">
+			姓名：<input type="text" name="xingming" size="15" maxlength="6" value="请填写姓名"><br>
+			文本框1：<input type="text" id="tex1" value="学习技巧"/><br>
+			文本框2：<input type="text" id="tex2" /><br>
+			<input type="button" value="点击我" onclick="document.getElementById('tex2').value=document.getElementById('tex1').value" /><br>
+			请输入网址：<input type="url" name="useur1"><br>
+			电子邮件：(email)<input type="email" name="user_email"><br>
+			日期时间：<input type="month" name="user_date"><br>
+			购买数量：<input type="number" min="0" max="10" value="5" step="5"><br>
+			评价等级：<input type="range" name="ran" min="1" max="10"><br>
+			<input type="submit" name="tijiao" value="点击提交" />
+			<input type="reset" name="chongtian" value="重新填写"/>
+		</form>
+	</body>
+</html>

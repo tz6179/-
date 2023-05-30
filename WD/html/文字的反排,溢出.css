@@ -1,0 +1,5 @@
+h1{unicode-bidi: bidi-override; text-align: left; color: #0000FF; direction:ltr;}
+p{
+	border: 1px solid royalblue; width: 260px; white-space: nowrap;
+	overflow: hidden; text-overflow: ellipsis;
+}

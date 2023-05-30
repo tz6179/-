@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<!--<link rel="stylesheet" href="美化表单样式.css">-->
+			<style>
+				input{
+					color: #cad9ea;
+					border-radius: 15px;
+					padding: 5px 10px;
+				}
+				input.txt{
+					border: 1px inset; #cad9ea;
+					background-color: #add8e6;
+				}
+				input.bdys{
+					color: #00008b;
+					border: 1px outset #cad9ea;
+					background-color: #add8e6;
+					padding: 1px 2px 1px 2px;
+				}
+				select{
+					width: 80px;
+					color: #00008B;
+					background-color: #add8e6;
+					border: 1px solid #cad9ea;
+				}
+				textarea{
+					width: 200px;
+					height: 40px;
+					color: #00008B;
+					background-color: #add8e6;
+					border: 1px inset #cad9ea;
+				}
+			</style>
+	</head>
+	<body>
+		<h3>注册页面</h3>
+		<table border="1" width="45%">
+			<form method="post">
+				<tr>
+					<td width="30%">昵称:</td>
+					<td><input class="txt">1——20个字符<div id="qq"></div></td>
+				</tr>
+				<tr>
+					<td>密码：</td>
+					<td><input type="password">长度为6~16位</td>
+				</tr>
+				<tr>
+					<td>确认密码：</td>
+					<td><input type="password"></td>
+				</tr>
+				<tr>
+					<td>真实姓名：</td>
+					<td><input name="biaodanname"></td>
+				</tr>
+				<tr>
+					<td>性别：</td>
+					<td><select><option>男</option><option>女</option></select></td>
+				</tr>
+				<tr>
+					<td>E-mail 地址：</td>
+					<td><input value="www.baidu.com"></td>
+				</tr>
+				<tr>
+					<td>备注</td>
+					<td><textarea cols="35" rows="10"></textarea></td>
+				</tr>
+				<tr>
+					<td><input type="button" value="提交" class="bdys"></td>
+					<td><input type="reset" value="重填" class="bdys"></td>
+				</tr>
+			</form>>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,28 @@
+h1{
+	font-family: "微软雅黑";
+	word-spacing: 10px;
+	letter-spacing: 5px;
+	text-decoration: underline;
+	text-align: center;
+}
+#p1{
+	word-spacing: 10px;
+	letter-spacing: 10px;
+	text-transform: capitalize;
+	text-align: justify;
+	text-indent: 2em;
+	line-height: 20px;
+	font-style: oblique;
+}
+p{
+	word-spacing: 10px;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	text-align: justify;
+	text-indent: 2em;
+	line-height: 25px;
+}
+h1{
+	background: #336699;
+	color: wheat;
+}

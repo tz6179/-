@@ -1,0 +1,5 @@
+input{color: #4169E1;}
+input.txt{border: 1px inset #4169E1;background-color: #DEB887;}
+input.bdys{color: #336699;background-color: #DEB887;border: 1px outset #4169E1;}
+select{width: 80px;color: #000000;background-color: #DEB887;border: 1px solid #4169E1;}
+textarea{width: 200px; height:80px;color: #336699;background-color: #DEB887;border: 1px inset #4169E1;}

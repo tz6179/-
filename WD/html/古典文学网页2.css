@@ -1,0 +1,11 @@
+*{margin: 0px;padding: 0px;}
+#wx01{height: 245px;width: 700px;/*border: 1px solid red;*/}
+#wx02{height: 211px;width: 700px;background-image: url(../img/0_06.gif);}
+#wx03{width: 700px;height: 211px;/*border: 1px solid green;*/overflow: hidden;}
+ul{list-style-type: none;}
+ul li{float: left;padding: 15px 5px;}
+p{height: 34px;line-height: 34px;}
+#wx06{float: right;background: url(../img/0_more.gif) no-repeat center center;display: inline-block;
+width: 65px;height: 34px;text-align: center;}
+#wx05{background: url(../img/0_hot.jpg);display: inline-block;width: 142px;height: 34px;
+color: antiquewhite;text-align: center;}

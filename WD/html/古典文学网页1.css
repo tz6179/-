@@ -1,0 +1,11 @@
+*{padding: 0px;margin: 0px;}
+body{background: url(../img/0_body.jpg) repeat-x;}
+#biaoti{width: 1020px;height: 150px;background-image: url(../img/bj.jpg);margin: 0px auto;position: relative;}
+#biaoti01{width: 600px;}
+#biaoti02{list-style-type: none;position: absolute;left: 390px;top: 90px;}
+#biaoti02 li{width: 120px;float: left;text-align: center;}
+#biaoti02 li a{color: #000000;text-decoration: none;}
+#biaoti02 li a:hover{color:red;}
+.biaoti03{display: none;padding: 5px 4px;list-style-type: none;} 
+.biaoti04{background-color: #c9ac60;}
+ul li:hover .biaoti03{display: block;}
