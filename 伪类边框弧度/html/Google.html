@@ -1,0 +1,179 @@
+
+<!DOCTYPE html> 
+	<html> 
+	
+	<head> 
+	<meta charset="UTF-8"> 
+	<title></title> 
+	<style type="text/css"> 
+	.d1{ 
+	margin: 0; 
+	padding: 0; 
+	width: 100%; 
+	height: 1000px; 
+	position: absolute; 
+	} 
+	.G{ 
+	font-size: 80px; 
+	color:#1B6FEF; 
+	} 
+	.ooo{ 
+	font-size: 80px; 
+	color:#DB4732; 
+	} 
+	.oo{ 
+	font-size: 80px; 
+	color:#FFD669; 
+	} 
+	.l{ 
+	font-size: 80px; 
+	color:#009A57; 
+	} 
+	.ddd{ 
+	text-align: center; 
+	padding-top: 147px; 
+	letter-spacing: -6px; 
+	
+	} 
+	#search { 
+	width: 480px; 
+	height: 40px; 
+	border:none; 
+	outline:none; 
+	font-size: 16px; 
+	color: rgb(112, 112, 120); 
+	margin-left: 50px; 
+	
+	} 
+	.searchbar { 
+	border: rgb(218, 218, 218) solid 1px; 
+	border-radius: 2em; 
+	width: 552px; 
+	height: 42px; 
+	box-shadow: 0px 0px 10px rgb(212, 212, 212); 
+	margin: 0 auto; 
+	margin-top: 50px; 
+	} 
+	
+	#search, .mcp, .mg { 
+	vertical-align: middle; 
+	} 
+	
+	.mg {
+	height: 20px; 
+	margin-left: -250px; 
+	float: left; 
+	vertical-align: middle; 
+	} 
+	
+	.diyipai{ 
+	width: 620px; 
+	height: 130px; 
+	position:absolute; 
+	left: 50%; 
+	top: 50%; 
+	transform: translate(-50%,-60%); 
+	
+	} 
+	.diyib td{ 
+	width: 120px; 
+	height: 120px; 
+	text-align: center; 
+	border-radius: 1em; 
+	
+	} 
+	.diyib td:hover{ 
+	background-color: rgb(232,232,234); 
+	} 
+	.st{ 
+	width: 80px; 
+	height: 80px; 
+	border-radius: 50%; 
+	margin-top: 5px; 
+	margin-left: 20px; 
+	background-color: rgb(242,243,245); 
+	} 
+	img{ 
+	position: static; 
+	position: relative; 
+	top: 45%; 
+	left: 50%; 
+	transform: translate(-85%,-40%); 
+	vertical-align: middle; 
+	}
+	a{ 
+	text-decoration:none; 
+	}
+	.xz{ 
+	height: 20px; 
+	width: 120px; 
+	overflow: hidden; 
+	text-overflow: ellipsis; 
+	white-space: nowrap; 
+	text-align: center; 
+	color: #DB4732; 
+	}  
+	.dierpai{ 
+	width: 500px; 
+	height: 130px; 
+	position:absolute; 
+	left: 50%; 
+	top: 660px; 
+	transform: translate(-45%,-70%); 
+	} 
+	.dierb td{ 
+	width: 100px; 
+	height: 100px; 
+	text-align: center; 
+	border-radius: 1em; 
+	} 
+	.dierb td:hover{ 
+	background-color: rgb(200,200,200);
+	} 
+	
+	</style> 
+	</head> 
+	<body> 
+	<div class="d1"> 
+	<div class="ddd"> 
+	<span class="G">G</span> 
+	<span class="ooo">o</span> 
+	<span class="oo">o</span> 
+	<span class="G">g</span> 
+	<span class="l">l</span> 
+	<span class="ooo"">e</span> 
+	</div> 
+	<div class="searchbar"> 
+	<a><img src="../img/sou.jpg" class="mg"></a> 
+	<input type="text" id="search" value="在Google上搜索，或输入一个新的网址" 
+	onfocus="if(value=='在Google上搜索，或输入一个新的网址')value=''" 
+	onblur="if(!value)value='在Google上搜索，或输入一个新的网址'" 
+	name="keyword"> 
+	<a href="#" title="语音搜索"><img src="" class="mcp"></a> 
+	</div> 
+	<div class="diyipai"> 
+	<table class="diyib" border="0px">
+	<tr> 
+	<td><a href="#" title="钉钉"><div class="st"><img src="../img/ding.jpg" width="50px" height="50px"/></div><div class="xz">钉钉</div></a></td> 
+	<td><a href="#" title="抖音"><div class="st"><img src="../img/douyin.jpg" width="50px" height="50px"/></div><div class="xz">抖音</div></a></td> 
+	<td><a href="#" title="斗鱼直播"><div class="st"><img src="../img/douyu.jpg" width="50px" height="50px"/></div><div class="xz">斗鱼直播</div></a></td> 
+	<td><a href="#" title="淘宝"><div class="st"><img src="../img/taobao.jpg" width="50px" height="50px"/></div><div class="xz">淘宝</div></a></td> 
+	<td><a href="#" title="微信"><div class="st"><img src="../img/weixin.jpg" width="50px" height="50px"/></div><div class="xz">微信</div></a></td> 
+	</tr>
+	</table> 
+	</div> 
+	<div class="dierpai"> 
+	<table class="dierb" border="0px"> 
+	<tr> 
+	<td><a href="#" title="原神"><div class="st"><img src="../img/yuanshen.jpg" width="50px" height="50px"/></div><div class="xz">原神</div></a></td> 
+	<td><a href="#" title="QQ邮箱"><div class="st"><img src="../img/qq.jpg" width="50px" height="50px"/></div><div class="xz">QQ邮箱</div></a></td> 
+	<td><a href="#" title="百度"><div class="st"><img src="../img/baidu.jpg" width="50px" height="50px"/></div><div class="xz">百度</div></a></td> 
+	<td><a href="#" title="快捷"><div class="st"><img src="../img/jia.jpg" width="50px" height="50px"/></div><div class="xz">添加快捷方式</div></a></td> 
+	</tr> 
+	</table> 
+	</div> 
+	</div> 
+	
+	</body> 
+	
+	</html>
